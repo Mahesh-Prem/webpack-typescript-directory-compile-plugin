@@ -1,0 +1,28 @@
+{
+	"name": "@ssigwart/webpack-typescript-directory-compile-plugin",
+	"version": "1.0.0",
+	"description": "Webpack plugin to take a source directory of typescript files and compile them to a destination directory of javascript files.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ssigwart/webpack-typescript-directory-compile-plugin.git"
+	},
+	"keywords": [
+		"webpack",
+		"typescript",
+		"directory"
+	],
+	"author": "Stephen Sigwart",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ssigwart/webpack-typescript-directory-compile-plugin/issues"
+	},
+	"homepage": "https://github.com/ssigwart/webpack-typescript-directory-compile-plugin#readme",
+	"dependencies": {
+		"glob": "^7.2.0",
+		"ts-loader": "^9.2.6"
+	}
+}
